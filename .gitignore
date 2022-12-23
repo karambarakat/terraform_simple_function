@@ -1,0 +1,13 @@
+# as a result of `archive_file` data resource
+.terraform-temp
+
+# as a result of `terraform init
+.terraform
+
+# as a result of `terraform plan`
+.terraform.lock.hcl
+
+# as a result of `terrafrom apply`
+terraform.tfstate.backup
+terraform.tfstate
+.terraform.tfstate.lock.info

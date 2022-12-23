@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "init": "terraform init",
+    "deploy": "npm run init && terraform apply -auto-approve",
+    "destroy": "terraform destroy"
+  }
+}
